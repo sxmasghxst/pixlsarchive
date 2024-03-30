@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  header(class='topbar')
+    ul
+      li(class="topbar-item")
+        a(href='/info') info
+      li(class="topbar-item")
+        a(href='/hii') say hi
+      li(class="topbar-item")
+        a(href='/perceive') perceive
+  div(class="flex-wrapper")
+    div(class="hi-page")
+      h2 say smt cute 
+      form
+        input(type="text" id="comment" placeholder="just do it <3")
+        br
+        input(id="submit" type="submit" value="lmk")

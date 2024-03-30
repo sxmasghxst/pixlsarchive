@@ -1,0 +1,20 @@
+extends layout 
+
+block content
+  div(class="home-page")
+    img(class="home-logo" src="/public/images/pixlsarchive_logo.png" height="90rem") 
+  header(class='topbar')
+      ul
+        li(class="topbar-item")
+          a(href='/homerton') homerton
+        li(class="topbar-item")
+          a(href='/info' class="selected") informatory
+        //- add hii page link item here when ur ready
+        //- add perceive page link item here when ur ready
+  div(class="flex-wrapper")
+    div(class="info-page")
+      img(src="./public/images/exclaymation_pixlarchive.png" id="exclay" height="200px" width="133px")
+      h1(class="info-header") "sama what is this?"
+      div(class="info-text")
+        p kind of just wanted to start something, so now i make websites !
+      a(href="https://www.instagram.com/pixlsarchive?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"): button(class="inquire-button") inquire
