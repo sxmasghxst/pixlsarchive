@@ -26,6 +26,7 @@ li {
 
 a {
   color:#dbe7ff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -83,9 +84,15 @@ a:hover {
 
 .social-media {
   display: inline-block;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
-  padding-right: 10rem;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  margin-right: 10rem;
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  background: none;
+  border-color: #dbe7ff;
 }
 
 .eye-ghost {
@@ -117,12 +124,13 @@ a:hover {
 
 .inquire-button {
   color: #dbe7ff;
+  font-family: 'Courier New', Courier, monospace;
   padding: 0.4rem;
   border-color: #dbe7ff;
   border-style: solid;
   border-radius: 0.7rem;
   background: none;
-  opacity: 60%;
+  opacity: 90%
 }
 
 .inquire-button:hover {
@@ -168,7 +176,11 @@ input {
 
   .social-media {
     display: block;
-    padding-right: 17rem;
+    margin-left: 15rem;
+    padding: 0.7rem;
+    border-radius: 1.5rem;
+    background: none;
+    border-color: #dbe7ff;
   }
 
   #exclay {
@@ -184,5 +196,9 @@ input {
     margin-left: 0.7rem;
     width: 25rem;
     font-size: 1rem;
+  }
+
+  .inquire-button {
+    opacity: 60%;
   }
 }
