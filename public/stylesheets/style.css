@@ -185,6 +185,10 @@ input {
     border-color: #dbe7ff;
   }
 
+  .info-page {
+    padding-top: 1rem;
+  }
+
   #exclay {
     height: 10rem;
     width: 6.3rem;
