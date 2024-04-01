@@ -1,6 +1,6 @@
 body {
   background-image: url(../public/images/IMG_8957.jpg);
-  font: 1rem 'Courier New', Courier, monospace;
+  font: 0.9rem 'Courier New', Courier, monospace;
   color: #dbe7ff;
   background-color: black;
   text-align: center;
@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 0;
+  padding-top: 0rem;
 }
 
 ul {
@@ -56,7 +57,7 @@ a:hover {
 }
 
 #enter-logo {
-  padding-top: 15rem;
+  padding-top: 12rem;
   padding-bottom: 1rem;
 }
 
@@ -89,10 +90,10 @@ a:hover {
 
 .social-media {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 1.5rem;
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
   margin-right: 10rem;
   padding: 0.7rem;
   border-radius: 1.5rem;
@@ -160,6 +161,7 @@ input {
   body {
     line-height: 1rem;
     background-color: #000219;
+    font-size: 1rem;
   }
 
   li {
@@ -236,6 +238,7 @@ input {
   body {
     line-height: 1rem;
     background-color: #000219;
+    font-size: 1rem;
   }
 
   li {
