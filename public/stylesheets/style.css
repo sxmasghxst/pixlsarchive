@@ -2,14 +2,14 @@ body {
   background-image: url(../public/images/IMG_8957.jpg);
   font: 1rem 'Courier New', Courier, monospace;
   color: #dbe7ff;
-  background-color: #000219;
+  background-color: black;
   text-align: center;
 }
 
 .flex-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 0;
 }
 
 ul {
@@ -42,12 +42,21 @@ a:hover {
   text-decoration: line-through;
 }
 
+.mobile-bar {
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  font-size: 0.6rem;
+}
+
 .enter-page {
   text-align: center;
 }
 
 #enter-logo {
-  padding-top: 8rem;
+  padding-top: 15rem;
   padding-bottom: 1rem;
 }
 
@@ -69,7 +78,7 @@ a:hover {
 }
 
 .home-logo {
-  padding-top: 5rem;
+  padding-top: 3rem;
   height: 4.3rem;
 }
 
@@ -102,7 +111,7 @@ a:hover {
 }
 
 .info-page {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 #exclay {
@@ -150,11 +159,20 @@ input {
 
   body {
     line-height: 1rem;
+    background-color: #000219;
   }
 
   li {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
+  }
+
+  .mobile-bar {
+    display: none;
+  }
+
+  #enter-logo {
+    padding-top: 9rem;
   }
 
   button#enter-button {
@@ -217,6 +235,7 @@ input {
 
   body {
     line-height: 1rem;
+    background-color: #000219;
   }
 
   li {
