@@ -20,7 +20,7 @@ app.set('view engine', 'pug');
 const RateLimit = require("express-rate-limit");
 const limiter = RateLimit({
   windowMs: 1 * 60 * 1000, // 1 minute
-  max: 1000,
+  max: 100,
 });
 // apply rate limiter to all requests
 app.use(limiter);
@@ -33,6 +33,7 @@ app.use(helmet());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/public/images', express.static(process.cwd() + '/public/images'));
+app.use('/public/fonts', express.static(process.cwd() + '/public/fonts'));
 app.use('/', indexRouter);
 app.use('/hii', hiiRouter);
 app.use('/info', infoRouter);
